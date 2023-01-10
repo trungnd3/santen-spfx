@@ -1,0 +1,29 @@
+@import '../../../../../../styles/theming';
+
+.container {
+  margin-top: 10px;
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+
+      li {
+        margin: 0 1.5rem;
+        color: $msPrimary;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+
+          &:hover,
+          &:active,
+          .active {
+            color: $msSecondary;
+          }
+        }
+      }
+    }
+  }
+}

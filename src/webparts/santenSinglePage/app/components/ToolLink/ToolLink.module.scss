@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #878787;
+  margin-left: -22%;
+
+  .inner {
+    width: 70%;
+    color: white;
+  }
+}

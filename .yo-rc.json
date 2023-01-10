@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "santen-spfx-2",
+    "libraryId": "50f8f457-5b12-4c57-bdfd-e5ac9c8cc09b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "santen-spfx-2",
+    "solutionShortDescription": "santen-spfx-2 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+
+  .info {
+    padding: 15px 15px;
+  }
+
+  .createdDate {
+    font-size: 14px;
+    color: #909090;
+  }
+
+  .headline {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .content {
+    margin: 20px 0;
+    max-height: 200px;
+    overflow: hidden;
+
+    p {
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  hr {
+    color: #d5d5d5;
+  }
+
+  .category {
+    margin-top: 15px;
+
+    span {
+      background-color: #2c2c2c;
+      color: white;
+      padding: 5px 10px;
+    }
+  }
+}

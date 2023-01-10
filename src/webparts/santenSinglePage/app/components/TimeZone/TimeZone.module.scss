@@ -1,0 +1,47 @@
+.item {
+  border: 1px solid #d5d5d5;
+  padding: 20px;
+
+  .location {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .timeInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .meridiem {
+      display: flex;
+      align-items: flex-end;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .time {
+      font-size: 80px;
+    }
+  }
+
+  .date {
+    padding-top: 10px;
+    color: #616161;
+  }
+}
+
+@media (max-width: 767px) {
+  .item {
+    .timeInfo {
+      flex-direction: column-reverse;
+
+      .meridiem {
+        font-size: 25px;
+      }
+
+      .time {
+        font-size: 70px;
+      }
+    }
+  }
+}

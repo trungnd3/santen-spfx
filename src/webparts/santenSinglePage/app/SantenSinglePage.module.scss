@@ -1,0 +1,16 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+@import '../../../styles/theming';
+
+.santenSinglePage {
+  font-family: 'Atkinson Hyperlegible';
+
+  input,
+  textarea,
+  button {
+    font-family: 'Atkinson Hyperlegible';
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}

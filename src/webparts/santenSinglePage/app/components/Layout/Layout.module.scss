@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+
+  .innerContainer {
+    width: 70%;
+  }
+}

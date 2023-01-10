@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+
+  .annotation {
+    position: absolute;
+    top: 3px;
+    right: 0;
+
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .info {
+    height: 45%;
+    background-color: rgba(60, 63, 65, 0.5);
+    color: #d4cac7;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+
+    .createdDate {
+      margin-bottom: 3px;
+      font-size: 14px;
+    }
+
+    .title {
+      text-decoration: underline;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .info {
+      height: 55%;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "santen-spfx-2-client-side-solution",
+    "id": "50f8f457-5b12-4c57-bdfd-e5ac9c8cc09b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "santen-spfx-2 description"
+      },
+      "longDescription": {
+        "default": "santen-spfx-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "santen-spfx-2 Feature",
+        "description": "The feature that activates elements of the santen-spfx-2 solution.",
+        "id": "4807d7fb-a172-4f12-a74d-39f8f4c97dc8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/santen-spfx-2.sppkg"
+  }
+}

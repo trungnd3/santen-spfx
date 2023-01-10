@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+    .start,
+    .end {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .middle {
+      display: flex;
+      flex-grow: 7;
+    }
+
+    .end {
+      justify-content: flex-end;
+
+      .avatar,
+      .translate {
+        cursor: pointer;
+
+        img {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 100%;
+        }
+      }
+
+      .avatar {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

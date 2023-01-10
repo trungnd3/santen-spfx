@@ -1,0 +1,51 @@
+.comment {
+  display: flex;
+  background-color: #f0faff;
+  margin-bottom: 10px;
+  border: 1px solid #c1e6fd;
+  padding: 10px;
+  font-size: 14px;
+
+  .avatar {
+    max-width: 40px;
+    margin: 0 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .container {
+    flex: 1;
+
+    .date {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 12px;
+      color: #5c5f60;
+    }
+
+    .author {
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 8px 0;
+    }
+
+    .interact {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      padding-top: 8px;
+
+      .like,
+      .reply,
+      .share {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+      }
+    }
+  }
+}

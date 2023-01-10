@@ -1,0 +1,14 @@
+@import '../../../../../../styles/theming';
+
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 7rem;
+  background-color: $msPrimary;
+  color: white;
+
+  span {
+    margin: 0 0.5rem;
+  }
+}

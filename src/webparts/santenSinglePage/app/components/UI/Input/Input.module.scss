@@ -1,0 +1,20 @@
+.inputContainer {
+  display: flex;
+  width: 100%;
+  border: 1px solid #dedddd;
+  border-radius: 7rem;
+  padding: 7px;
+
+  input {
+    flex: 1;
+    border: none;
+    margin-left: 0.5rem;
+
+    &:focus,
+    &:hover,
+    &:focus-visible {
+      border: none;
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../../../../../styles/theming';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: $msPrimary;
+  color: white;
+  font-size: 12px;
+  padding: 5px 0;
+  margin-top: 3rem;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+    .linebreak {
+      display: none;
+    }
+
+    .metadata {
+      display: flex;
+      gap: 3px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 16px;
+    .wrapper {
+      display: block;
+
+      .linebreak {
+        display: block;
+        color: white;
+      }
+
+      .metadata,
+      .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .metadata {
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+    }
+  }
+}

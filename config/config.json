@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "santen-single-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/santenSinglePage/SantenSinglePageWebPart.js",
+          "manifest": "./src/webparts/santenSinglePage/SantenSinglePageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SantenSinglePageWebPartStrings": "lib/webparts/santenSinglePage/loc/{locale}.js"
+  }
+}

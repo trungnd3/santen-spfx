@@ -1,0 +1,23 @@
+.section {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+
+    .title {
+      font-weight: bold;
+    }
+
+    .showMore {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      cursor: pointer;
+
+      .icon {
+        margin-right: 3px;
+      }
+    }
+  }
+}
